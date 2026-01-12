@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doce Raiz | Cardápio Digital</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f6dcc3;
+      color: #4a2f1b;
+    }
+
+    header {
+      text-align: center;
+      padding: 24px 16px;
+    }
+
+    header img {
+      max-width: 110px;
+      margin-bottom: 8px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      margin: 8px 0 4px;
+    }
+
+    header p {
+      font-size: 14px;
+      color: #6b4a32;
+    }
+
+    section {
+      padding: 16px;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      border-bottom: 1px solid #d2b49c;
+      padding-bottom: 6px;
+      margin-bottom: 12px;
+    }
+
+    .item {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 20px;
+        align-items: flex-start;
+    }
+    .item-info {
+        flex: 1;
+    }
+
+    .item-info strong {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+
+    .item-info span {
+      font-size: 14px;
+      display: block;
+    }
+
+    .item img {
+        width: 120px;
+        height: 120px;
+        border-radius: 8px;
+        object-fit: cover;
+        margin: 0;
+        margin: 8px 0;
+        flex-shrink: 0;
+    }
+
+    .price {
+      font-weight: 600;
+      color: #6b3e26;
+      margin-top: 6px;
+    }
+
+    .cta {
+      display: block;
+      margin: 32px auto;
+      background-color: #6b3e26;
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 22px;
+      border-radius: 6px;
+      text-align: center;
+      width: fit-content;
+      font-size: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <!-- Se quiser, pode colocar o logo -->
+    <!-- <img src="logo-doce-raiz.png" alt="Logo Doce Raiz"> -->
+    <h1>Doce Raiz</h1>
+    <img src="imagens/logo.jpg" alt="Logo Doce Raiz">
+    <p>Confeitaria Artesanal</p>
+  </header>
+
+  <section>
+    <h2>Pães Artesanais</h2>
+
+    <div class="item">
+      <img src="imagens/pao-caseiro.png" alt="Pão caseiro artesanal">
+      <div class="item-info">
+        <strong>Pão Caseiro Tradicional</strong>
+        <span>Fermentação lenta</span><br>
+        <span class="price">R$ 12,00</span>
+      </div>
+    </div>
+
+    <div class="item">
+        <img src="imagens/pao-integral.png" alt="Pão integral artesanal">
+      <div>
+        <strong>Pão Integral Artesanal</strong>
+        <span>Farinha integral e sementes</span><br>
+        <span class="price">R$ 14,00</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Bolos Caseiros</h2>
+
+    <div class="item">
+        <img src="imagens/bolo-de-cenoura.png" alt="Bolo de cenoura">
+        <div class="item-info">
+            <strong>Bolo de Cenoura</strong>
+             <span>Com cobertura de chocolate</span><br>
+             <span class="price">R$ 35,00</span>
+        </div>
+    </div>
+
+    <div class="item">
+        <img src="imagens/bolo-de-laranja.png" alt="Bolo de laranja">
+      <div class="item-info"> 
+        <strong>Bolo de Laranja</strong>
+        <span>Receita caseira</span><br>
+        <span class="price">R$ 30,00</span>
+      </div>
+     </div>
+  </section>
+
+  <section>
+    <h2>Doces Artesanais</h2>
+
+    <div class="item">
+        <img src="imagens/brigadeiro-gourmet.png" alt="Brigadeiro gourmet">
+        <div class="item-info">
+           <strong>Brigadeiro Gourmet</strong>
+           <span class="price">R$ 3,50 (unidade)</span>
+        </div>
+    </div>
+
+    <div class="item">
+        <img src="imagens/pudim-caseiro.png" alt="Pudim-caseiro">
+        <div class="item-info"> 
+            <strong>Pudim Caseiro</strong>
+            <span class="price">R$ 20,00</span>
+        </div>
+     </div>
+  </section>
+
+  <a class="cta" href="https://wa.me/551234567890" target="_blank">
+    Fazer pedido pelo WhatsApp
+  </a>
+
+</body>
+</html>
