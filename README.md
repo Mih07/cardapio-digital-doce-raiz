@@ -29,6 +29,10 @@ O layout segue a identidade visual da marca Doce Raiz, com cores suaves, tipogra
 
 Projeto desenvolvido para fins de estudo e portfólio, demonstrando a criação de um cardápio digital funcional, alinhado à identidade visual da marca e à experiência do usuário.
 
----
+## 🌐 Cardápio online
 
+Acesse o cardápio digital:
+👉 https://mih07.github.io/cardapio-digital-doce-raiz/
+
+---
 Desenvolvido por Michele Santo.
